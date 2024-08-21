@@ -7,7 +7,9 @@ class SystemAppTheme {
     fontFamily: 'Poppins',
     brightness: Brightness.light,
     primaryColor: Colors.blue,
-    textTheme:
+    scaffoldBackgroundColor: Colors.white,
+    textTheme: TextTheme(),
+
   );
   static ThemeData darkTheme = ThemeData();
 }
